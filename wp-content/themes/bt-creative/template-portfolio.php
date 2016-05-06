@@ -25,7 +25,7 @@ get_header(); ?>
 
 		?>
 
-		<article data-job="jobDesc-<?php echo $count; ?>" class="tiles">
+		<article data-job="jobDesc-<?php echo $count; ?>" class="tiles design-tiles">
 			<section class="job-toggle portfolio-image">
 			<img class="jobImage" src="<?php echo $project_image['url']; ?>" alt="<?php echo $project_image['alt'] ?>" />
 			</section>

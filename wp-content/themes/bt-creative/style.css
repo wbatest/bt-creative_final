@@ -553,6 +553,11 @@ textarea {
 	
 	padding: 15px;
 }
+.hover img {
+	-webkit-transition-property: opacity; 
+ 	-webkit-transition-duration: .25s; 
+ 	-webkit-transition-timing-function: ease-in;
+}
 .hover:hover img {
 	opacity: 0;
 }
@@ -1009,6 +1014,11 @@ object {
 	height: 300px;
 	width: 300px;
 }
+.tiles section.hover img{
+	-webkit-transition-property: opacity; 
+ 	-webkit-transition-duration: .5s; 
+ 	-webkit-transition-timing-function: ease-in;
+}
 .tiles section.hover:hover img {
 	opacity: 0;
 }
@@ -1193,6 +1203,14 @@ li.icon {
 .portfolio-image img {
 	max-height: 100%;
 	max-width: 100%;
+}
+.design-tiles img{
+	-webkit-transition-property: opacity; 
+ 	-webkit-transition-duration: .5s; 
+ 	-webkit-transition-timing-function: ease-in;
+}
+.design-tiles img:hover {
+	opacity: 30%;
 }
 /*--------------------------------------------------------------
 ## Artwork Page
